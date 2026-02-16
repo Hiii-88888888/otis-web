@@ -37,7 +37,7 @@ and replace `YOUR_USERNAME` in step 2 with `vEnhance`.
 1. Install the following standard tools: `python` (version 3.13+), `git`,
    and [uv](https://docs.astral.sh/uv/getting-started/installation/).
 2. Clone this repository using the command
-   `git clone https://github.com/YOUR_USERNAME/otis-web`.
+   `git clone git@github.com:YOUR_USERNAME/otis-web`.
 3. Type `git checkout -b feature` to checkout a new branch named `feature`;
    this will make your life a bit easier than working on `main`.
    If you already know what feature you're trying to implement,
