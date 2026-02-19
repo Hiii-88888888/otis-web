@@ -181,3 +181,14 @@ that you start the runserver with `uv run python manage.py runserver 0.0.0.0:800
 as this will connect to the port you put in the `docker run` command. If you changed
 it from port 8000 in the `docker run` command, **DO NOT** change it here - instead, just
 go to `localhost:PORT`, where `PORT` is the specified port (not 8000 if you changed it).
+
+## LLM usage for pull requests
+
+Nothing surprising here:
+
+- LLM usage is okay, but you are expected to take responsibility for the
+  generated code. (So you should not generate code and submit it without
+  reading or testing it, for example.)
+- Please mention when pull requests have LLM usage,
+  since the things I need to watch for when reviewing AI-generated code
+  are different versus human-written code.
